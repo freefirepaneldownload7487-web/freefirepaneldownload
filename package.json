@@ -1,1 +1,27 @@
-
+{
+  "name": "teleshort-api",
+  "version": "1.0.0",
+  "description": "Backend API for TeleShort Telegram Mini App",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for Vercel Serverless Functions'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "telegram",
+    "mini-app",
+    "bot",
+    "supabase",
+    "vercel",
+    "serverless"
+  ],
+  "author": "WebApp Sikho",
+  "license": "MIT"
+}
