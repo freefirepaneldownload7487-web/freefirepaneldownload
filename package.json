@@ -4,7 +4,15 @@
   "description": "Backend API for TeleShort Telegram Mini App",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": {
+  "name": "teleshort-api",
+  "version": "1.0.0",
+  "description": "Backend API for TeleShort Telegram Mini App",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
+    }
+    "node index.js",
     "dev": "vercel dev",
     "build": "echo 'No build step required for Vercel Serverless Functions'"
   },
